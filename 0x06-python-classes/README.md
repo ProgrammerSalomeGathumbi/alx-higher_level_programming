@@ -1,4 +1,4 @@
-#Python - Classes and Objects   
+# Python - Classes and Objects   
     
 **A class** is a blueprint or template for creating objects (also known as instances). It defines the properties and methods that all instances of that class will have.     
 
