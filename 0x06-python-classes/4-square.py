@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """
 This module writes a class Square that defines a square
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5eedd6f14b61fbb4f6ff628fc238299c21d709e2
 """
 
 
