@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module writes a class Square that defines a square
-It has a Private instance attribute: size
+
 """
 
 
