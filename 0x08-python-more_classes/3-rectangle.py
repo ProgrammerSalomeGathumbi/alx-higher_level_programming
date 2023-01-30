@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Rectangle module
+This is a rectangle module
 """
 
 
