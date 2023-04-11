@@ -7,5 +7,5 @@ function add (a, b) {
 if (a && b) {
   console.log(add(a, b));
 } else {
-  console.log(NaN);
+  console.log('NaN');
 }
