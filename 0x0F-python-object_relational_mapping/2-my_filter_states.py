@@ -17,5 +17,3 @@ if __name__ == "__main__":
     tables = cursor.fetchall()
     for table in tables:
         print(table)
-    cursor.close()
-    db.close()
