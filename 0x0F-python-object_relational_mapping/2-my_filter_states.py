@@ -12,9 +12,10 @@ if __name__ == "__main__":
                          passwd=sys.argv[2], db=sys.argv[3])
     cursor = db.cursor()
     cursor.execute("SELECT * FROM states\
-                   WHERE name LIKE '{}'\
+                   WHERE name LIKE  BINARY '{}'\
                    ORDER BY states.id ASC.format(argv[4])")
     tables = cursor.fetchall()
     for table in tables:
         print(table)
+    cursor.close()
     db.close()
