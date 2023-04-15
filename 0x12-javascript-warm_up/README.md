@@ -1,11 +1,11 @@
-#0x12. JavaScript - Warm up
+# 0x12. JavaScript - Warm up
 JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:      
 Scripting (same as we did with Python)     
 Web front-end       
-##Learning Objectives       
+## Learning Objectives       
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:      
 
-###General       
+### General       
 Why JavaScript programming is amazing      
 How to run a JavaScript script        
 How to create variables and constants      
