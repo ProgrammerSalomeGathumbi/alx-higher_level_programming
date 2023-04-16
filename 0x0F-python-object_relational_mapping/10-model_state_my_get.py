@@ -12,8 +12,7 @@ if __name__ == "__main__":
                            .format(argv[1], argv[2], argv[3]))
     Session = sessionmaker(bind=engine)
     session = Session()
-    x = session.query(State).order_by(State.id)
-    .filter(State.name == argv[4]).first()
+    x = session.query(State).filter(State.name == argv[4]).first()
 
     if x:
         print("{}".format(x.id))
