@@ -11,7 +11,7 @@ Base = declarative_base()
 
 class State(Base):
     """
-    This is the State Class that inherits fro Base
+    This is the State Class that inherits from Base
     """
     __tablename__ = 'states'
     id = Column(Integer, primary_key=True)
