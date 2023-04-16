@@ -17,6 +17,6 @@ if __name__ == "__main__":
     tables = cursor.fetchall()
     for table in tables:
         if table[1] == argv[4]:
-	    print(table)
+            print(table)
     cursor.close()
-    db.close() 	 
+    db.close()
