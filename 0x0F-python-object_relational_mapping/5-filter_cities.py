@@ -17,7 +17,8 @@ if __name__ == "__main__":
                    WHERE states.name LIKE BINARY %s\
                    ORDER BY cities.id ASC", (argv[4], ))
     cities = set()
-    for table in cursor.fetchall():
+    tables = cursor.fetchall()
+    for table in tables:
         cities.add(table[0])
     print(", ".join(cities))
     cursor.close()
