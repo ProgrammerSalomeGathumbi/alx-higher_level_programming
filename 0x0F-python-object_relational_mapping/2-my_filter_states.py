@@ -16,4 +16,7 @@ if __name__ == "__main__":
                    ORDER BY states.id ASC".format(argv[4]))
     tables = cursor.fetchall()
     for table in tables:
-        print(table)
+        if table[1] == argv[4]:
+	    print(table)
+    cursor.close()
+    db.close() 	 
