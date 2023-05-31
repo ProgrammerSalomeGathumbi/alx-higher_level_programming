@@ -1,5 +1,10 @@
 $(document).ready(function () {
-  $.getJSON('https://swapi-api.alx-tools.com/api/people/5/?format=json', function (data) {
-    $('#character').text(data.name);
+  $.ajax({
+    url: 'https://swapi-api.alx-tools.com/api/people/5',
+    method: 'GET',
+    dataType: 'json',
+    sucess: function (data) {
+      $('#character').text(data.name);
+    }
   });
 });
