@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $.ajax({
     url: 'https://fourtonfish.com/hellosalut/?lang=fr',
-    dataType: 'json',
+    method: 'GET',
     success: function (data) {
-      $('#hello').append(data.hello);
+      $('#hello').text(data.hello);
     }
   });
 });
