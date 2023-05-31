@@ -6,7 +6,7 @@ $(document).ready(function () {
     success: function (data) {
       const movie = data.results;
       for (let m = 0; m < movie.length; m++) {
-        $('#list_movies').append($('<li>').text(movie[m].title));
+        $('#list_movies').append(`<li>${movie[m].title}</li>`);
       }
     }
   });
